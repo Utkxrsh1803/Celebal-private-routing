@@ -1,0 +1,17 @@
+.topicdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.p2{
+    text-align: center;
+    margin:20px;
+    padding:2px;
+    font-size: medium;
+    font-weight:500;
+    color: #F2EAD3;
+    text-align:center;
+}

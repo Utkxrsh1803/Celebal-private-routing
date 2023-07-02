@@ -1,0 +1,39 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Fira+Sans&family=Great+Vibes&family=Poppins:wght@300;400&display=swap');
+
+ .header {
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: rgba(107, 107, 107, 0.126);
+     /* box-shadow: 1px 2px 50px 1px #4e1204; */
+     height:60px;
+     width:100%;
+ }
+ ul{
+    margin-right:20px;
+    width:auto;
+ }
+
+ .logo {
+     color: #F2EAD3;
+     margin-left: 2%;
+     font-size: 30px;
+     letter-spacing: 2px;
+ }
+
+ .menu {
+     color: #F2EAD3;
+     list-style: none;
+     display: flex;
+     font-size:18px;
+     font-weight:500;
+     width: 30%;
+     justify-content:space-evenly;
+     font-family: 'Baloo Bhai 2', cursive;
+ }
+
+ li:hover {
+     text-decoration: underline;
+     cursor: pointer;
+ }

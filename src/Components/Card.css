@@ -1,0 +1,21 @@
+.carddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:60vh;
+    padding:20px 0px;
+    width:25%;
+    border:2px solid #f2ead3;
+    background-color: #0000003e;
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left: 20px;
+    flex-basis: 20%;
+    transition: 0.4s ease-out;
+    
+}
+
+.carddiv:hover{
+    transform: translateY(20px)
+}

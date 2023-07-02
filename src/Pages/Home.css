@@ -1,0 +1,54 @@
+
+.content
+{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+}
+
+.fbox{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction:column;
+}
+.upgrade{
+    font-size:4rem;
+    color: #F2EAD3;
+    margin:20px 25px;
+}
+
+.unlock{
+    font-size: 1rem;
+    color: #F2EAD3;
+    text-align: justify;
+    margin:20px 25px;
+    width:40%;
+}
+
+.ready{
+    font-size: 1rem;
+    color: #F2EAD3;
+    width:40%;
+    text-align: justify;
+    margin:20px 25px;
+}
+
+.explorebutton{
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    width: 100px;
+    padding: 8px 0;
+    margin:20px 25px;
+    color:#F2EAD3;
+    border:2px solid #F2EAD3;
+    background:local;
+}
+
+.explorebutton:hover{
+    color:white;
+    cursor: pointer;
+    border:2px solid #ffffff;
+    background-color: tan;
+}

@@ -1,0 +1,25 @@
+.aboutlayout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #1c1b1b70;
+}
+.infodiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height:90vh;
+    width:100%;
+}
+.infop{
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left:20px;
+    width:60%;
+    margin-right:20px;
+    font-size: 14px;
+    color: #F2EAD3;
+    font-weight:500;
+    font-size: 18px;
+}
